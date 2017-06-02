@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		1F598C801EE135BC0056002F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F598C7F1EE135BC0056002F /* main.m */; };
 		1F598C831EE135BC0056002F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F598C821EE135BC0056002F /* AppDelegate.m */; };
-		1F598C861EE135BC0056002F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F598C851EE135BC0056002F /* ViewController.m */; };
+		1F598C861EE135BC0056002F /* YYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F598C851EE135BC0056002F /* YYHomeViewController.m */; };
 		1F598C891EE135BC0056002F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F598C871EE135BC0056002F /* Main.storyboard */; };
 		1F598C8C1EE135BC0056002F /* YYGPUImageDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F598C8A1EE135BC0056002F /* YYGPUImageDemo.xcdatamodeld */; };
 		1F598C8E1EE135BC0056002F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F598C8D1EE135BC0056002F /* Assets.xcassets */; };
 		1F598C911EE135BC0056002F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F598C8F1EE135BC0056002F /* LaunchScreen.storyboard */; };
+		1F598C9C1EE1411C0056002F /* YYGPUImageFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F598C9B1EE1411C0056002F /* YYGPUImageFilterController.m */; };
+		1F598C9F1EE141340056002F /* YYBeautifyFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F598C9E1EE141340056002F /* YYBeautifyFilterController.m */; };
+		1F598CA41EE144420056002F /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F598CA31EE144420056002F /* GPUImageBeautifyFilter.m */; };
+		B8FE80C2C86F9A7458590A51 /* libPods-YYGPUImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 798C01B0AB2B056AAC2C5214 /* libPods-YYGPUImageDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +25,23 @@
 		1F598C7F1EE135BC0056002F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F598C811EE135BC0056002F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F598C821EE135BC0056002F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1F598C841EE135BC0056002F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1F598C851EE135BC0056002F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F598C841EE135BC0056002F /* YYHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYHomeViewController.h; sourceTree = "<group>"; };
+		1F598C851EE135BC0056002F /* YYHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYHomeViewController.m; sourceTree = "<group>"; };
 		1F598C881EE135BC0056002F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F598C8B1EE135BC0056002F /* YYGPUImageDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YYGPUImageDemo.xcdatamodel; sourceTree = "<group>"; };
 		1F598C8D1EE135BC0056002F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F598C901EE135BC0056002F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F598C921EE135BC0056002F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F598C9A1EE1411C0056002F /* YYGPUImageFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYGPUImageFilterController.h; sourceTree = "<group>"; };
+		1F598C9B1EE1411C0056002F /* YYGPUImageFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYGPUImageFilterController.m; sourceTree = "<group>"; };
+		1F598C9D1EE141340056002F /* YYBeautifyFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYBeautifyFilterController.h; sourceTree = "<group>"; };
+		1F598C9E1EE141340056002F /* YYBeautifyFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYBeautifyFilterController.m; sourceTree = "<group>"; };
+		1F598CA01EE141A90056002F /* YYGPUImagePrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYGPUImagePrefixHeader.pch; sourceTree = "<group>"; };
+		1F598CA21EE144420056002F /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		1F598CA31EE144420056002F /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		70EC946F0CCC7F9C7A254BE3 /* Pods-YYGPUImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYGPUImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYGPUImageDemo/Pods-YYGPUImageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		798C01B0AB2B056AAC2C5214 /* libPods-YYGPUImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYGPUImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1142707C18951CD2953E0EC /* Pods-YYGPUImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYGPUImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYGPUImageDemo/Pods-YYGPUImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8FE80C2C86F9A7458590A51 /* libPods-YYGPUImageDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +61,8 @@
 			children = (
 				1F598C7D1EE135BC0056002F /* YYGPUImageDemo */,
 				1F598C7C1EE135BC0056002F /* Products */,
+				E1B7FC508738B2E34FE2A133 /* Pods */,
+				F424FA413AB3DF5AA6FA924B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +77,12 @@
 		1F598C7D1EE135BC0056002F /* YYGPUImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1F598C981EE140C80056002F /* Controller */,
+				1F598C991EE140C80056002F /* Library */,
 				1F598C811EE135BC0056002F /* AppDelegate.h */,
 				1F598C821EE135BC0056002F /* AppDelegate.m */,
-				1F598C841EE135BC0056002F /* ViewController.h */,
-				1F598C851EE135BC0056002F /* ViewController.m */,
+				1F598C841EE135BC0056002F /* YYHomeViewController.h */,
+				1F598C851EE135BC0056002F /* YYHomeViewController.m */,
 				1F598C871EE135BC0056002F /* Main.storyboard */,
 				1F598C8D1EE135BC0056002F /* Assets.xcassets */,
 				1F598C8F1EE135BC0056002F /* LaunchScreen.storyboard */,
@@ -78,8 +97,54 @@
 			isa = PBXGroup;
 			children = (
 				1F598C7F1EE135BC0056002F /* main.m */,
+				1F598CA01EE141A90056002F /* YYGPUImagePrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F598C981EE140C80056002F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F598C9A1EE1411C0056002F /* YYGPUImageFilterController.h */,
+				1F598C9B1EE1411C0056002F /* YYGPUImageFilterController.m */,
+				1F598C9D1EE141340056002F /* YYBeautifyFilterController.h */,
+				1F598C9E1EE141340056002F /* YYBeautifyFilterController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1F598C991EE140C80056002F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1F598CA11EE144420056002F /* GPUImageBeautifyFilter */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		1F598CA11EE144420056002F /* GPUImageBeautifyFilter */ = {
+			isa = PBXGroup;
+			children = (
+				1F598CA21EE144420056002F /* GPUImageBeautifyFilter.h */,
+				1F598CA31EE144420056002F /* GPUImageBeautifyFilter.m */,
+			);
+			path = GPUImageBeautifyFilter;
+			sourceTree = "<group>";
+		};
+		E1B7FC508738B2E34FE2A133 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1142707C18951CD2953E0EC /* Pods-YYGPUImageDemo.debug.xcconfig */,
+				70EC946F0CCC7F9C7A254BE3 /* Pods-YYGPUImageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F424FA413AB3DF5AA6FA924B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				798C01B0AB2B056AAC2C5214 /* libPods-YYGPUImageDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F598C951EE135BC0056002F /* Build configuration list for PBXNativeTarget "YYGPUImageDemo" */;
 			buildPhases = (
+				07BD57AA1FF977030EAF6FE9 /* [CP] Check Pods Manifest.lock */,
 				1F598C771EE135BC0056002F /* Sources */,
 				1F598C781EE135BC0056002F /* Frameworks */,
 				1F598C791EE135BC0056002F /* Resources */,
+				764AEE90EFDABFA4E5264137 /* [CP] Embed Pods Frameworks */,
+				85C0305CC8B1EBE9F28EDA18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,12 +217,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07BD57AA1FF977030EAF6FE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		764AEE90EFDABFA4E5264137 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYGPUImageDemo/Pods-YYGPUImageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85C0305CC8B1EBE9F28EDA18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYGPUImageDemo/Pods-YYGPUImageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F598C771EE135BC0056002F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F598C861EE135BC0056002F /* ViewController.m in Sources */,
+				1F598C9F1EE141340056002F /* YYBeautifyFilterController.m in Sources */,
+				1F598C9C1EE1411C0056002F /* YYGPUImageFilterController.m in Sources */,
+				1F598C861EE135BC0056002F /* YYHomeViewController.m in Sources */,
+				1F598CA41EE144420056002F /* GPUImageBeautifyFilter.m in Sources */,
 				1F598C8C1EE135BC0056002F /* YYGPUImageDemo.xcdatamodeld in Sources */,
 				1F598C831EE135BC0056002F /* AppDelegate.m in Sources */,
 				1F598C801EE135BC0056002F /* main.m in Sources */,
@@ -277,11 +396,19 @@
 		};
 		1F598C961EE135BC0056002F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1142707C18951CD2953E0EC /* Pods-YYGPUImageDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q4U65JAZSA;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YYGPUImageDemo/YYGPUImagePrefixHeader.pch;
 				INFOPLIST_FILE = YYGPUImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YYGPUImageDemo/Library",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ueb.newfrog.YYGPUImageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -289,11 +416,19 @@
 		};
 		1F598C971EE135BC0056002F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70EC946F0CCC7F9C7A254BE3 /* Pods-YYGPUImageDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q4U65JAZSA;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YYGPUImageDemo/YYGPUImagePrefixHeader.pch;
 				INFOPLIST_FILE = YYGPUImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YYGPUImageDemo/Library",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ueb.newfrog.YYGPUImageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -318,6 +453,7 @@
 				1F598C971EE135BC0056002F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
